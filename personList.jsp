@@ -16,13 +16,15 @@
       <table border="1">
         <tr>
           <th>First Name</th>
-          <th>Last Name</th>
+          <th> Last Name</th> 
+ <th>id</th>
         </tr>
         <c:forEach  items="${persons}" var ="person">
         <tr>
           <td>${person.firstName}</td>
           <td>${person.lastName}</td>
-        </tr>
+           <td>${person.id}</td>
+       </tr>
         </c:forEach>
       </table>
     </div>
